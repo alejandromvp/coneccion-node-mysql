@@ -1,0 +1,27 @@
+{
+  "name": "coneccion-node-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandromvp/coneccion-node-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandromvp/coneccion-node-mysql/issues"
+  },
+  "homepage": "https://github.com/alejandromvp/coneccion-node-mysql#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
